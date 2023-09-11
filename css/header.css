@@ -1,0 +1,73 @@
+header{
+    font-family: 'Lilita One', cursive;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--graycolor);
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#header-icon img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#header-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.header-icons img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.header-icons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#header-text {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    /* font-weight: bold; */
+    font-size: 33px;
+    margin-left: -58px;
+}
+
+#small-header-text{
+    width: 100vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* font-weight: bold; */
+    font-size: 33px;
+    margin-left: 8px;
+}
+
+@media screen and (min-width: 751px) {
+    #small-header-text{
+        display: none;
+    }
+}
+@media screen and (max-width: 750px) {
+    #header-text{
+        display: none;
+    }
+}
+
+#timer{
+    display: flex;
+    position: absolute;
+    right: 130px;
+}

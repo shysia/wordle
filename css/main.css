@@ -1,0 +1,31 @@
+@import 'footer.css';
+@import 'header.css';
+
+:root{
+    --graycolor:#d3d6da;
+}
+
+main{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.main-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.main-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--graycolor);
+    width: 60px;
+    height: 60px;
+}
