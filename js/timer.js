@@ -1,4 +1,6 @@
 const tm = new Date();
+let timeover;
+
 
 function timer() {
     const tmm = new Date();
@@ -9,4 +11,4 @@ function timer() {
     timerr.innerText = `${mi}:${se}`;
 }
 
-setInterval(timer,1000);
+timeover = setInterval(timer,1000);

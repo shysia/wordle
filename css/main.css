@@ -1,18 +1,25 @@
 @import 'footer.css';
 @import 'header.css';
+@import url(../js/index.js);
 
 :root{
     --graycolor:#d3d6da;
+
+    --answer_color:#6aaa64;
+    --half_answer_color:#c9b458;
+    --un_answer_color:#787c7e;
 }
 
 main{
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
 }
-
 
 .main-line{
     display: flex;
